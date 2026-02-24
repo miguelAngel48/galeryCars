@@ -14,3 +14,8 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*Check List for accessibility*
+- images with content on tags "alt"
+- tabIndex for select the different image and can press "space" or "enter" for play or stop the default video selected
+- prevent the effect of the keys inputs of space and enter
+- add the role button for the content of the class container-image for the browsers 
